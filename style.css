@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffeecc;
+}
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('/assets/hero-bg.png');
+    background-size: cover;        /* This makes the image cover the whole div */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;
+    font-family: "Work Sans", sans-serif;
+}
+
+.banner .items{
+   width: 700px;
+   text-align: center;
+  color: aliceblue;
+}
+
+.items .sub-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.items .title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.items .details{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.items button{
+    padding: 12px 20px;
+    background-color: #52C303;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
