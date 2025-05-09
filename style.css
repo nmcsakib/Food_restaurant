@@ -18,7 +18,7 @@ body{
 }
 
 .banner{
-    width: inherit;
+    
     height: 622px;
     display: flex;
     justify-content: center;
@@ -119,4 +119,89 @@ gap: 20px;
 
 .card .details{
     font-size: 12px;
+}
+
+.about-us{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.about-us .foodsPic{
+    height: 100%;
+    width: 50%;
+    background-image: url('/assets/foods.png');
+    background-size: cover;        /* This makes the image cover the whole div */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;
+    
+}
+.about-us .texts{
+    margin: auto 0;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+   
+}
+
+.texts .titles{
+   display: block;
+   margin-top: 32px;
+
+
+}
+
+.titles .title{
+    font-size: 30px;
+}
+
+.follow{
+    border-top:  1px solid rgb(184, 182, 182);
+    border-bottom:  1px solid rgb(192, 190, 190);
+    padding: 20px;
+    font-size: 20px;
+    color: #101010;
+    opacity: 0.7;
+
+}
+
+.contact{
+
+    width: 100%;
+    height: 50%;
+}
+
+.social{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.pic img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.about-us-2{
+    height: 400px;
+    width: 100%;
+    background-image: url("/assets/social-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.about-us-2 .contact .follow{
+    width: 60%;
+    margin: 20px auto;
 }
